@@ -1,0 +1,11 @@
+{
+  "port": 5500,
+  "root": "src",
+  "open": true,
+  "wait": 500,
+  "ignore": [
+    ".git",
+    "node_modules",
+    ".DS_Store"
+  ]
+}

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light ocean blue */
+    color: #004d40; /* Dark teal for text */
+}
+
+header {
+    background-color: #00796b; /* Teal for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #ffb300; /* Vibrant yellow for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffa000; /* Darker yellow on hover */
+}
+
+footer {
+    background-color: #795548; /* Brown for footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+.cleanup-event {
+    background-color: #c8e6c9; /* Light green for event cards */
+    border: 1px solid #388e3c; /* Dark green border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
