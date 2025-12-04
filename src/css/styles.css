@@ -9,7 +9,7 @@ body {
 header {
     background-color: #00796b; /* Teal for header */
     color: white;
-    padding: 20px;
+    padding: 0.5cm;
     text-align: center;
 }
 
@@ -20,16 +20,16 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    margin: 10px 0;
+    margin: 0.25cm 0;
 }
 
 button {
     background-color: #ffb300; /* Vibrant yellow for buttons */
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 0.25cm 0.5cm;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0.125cm;
     transition: background-color 0.3s;
 }
 
@@ -41,7 +41,7 @@ footer {
     background-color: #795548; /* Brown for footer */
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 0.25cm;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -49,14 +49,14 @@ footer {
 
 .map {
     width: 100%;
-    height: 400px;
-    margin: 20px 0;
+    height: 10cm;
+    margin: 0.5cm 0;
 }
 
 .cleanup-event {
     background-color: #c8e6c9; /* Light green for event cards */
-    border: 1px solid #388e3c; /* Dark green border */
-    border-radius: 5px;
-    padding: 15px;
-    margin: 10px 0;
+    border: 0.03cm solid #388e3c; /* Dark green border */
+    border-radius: 0.125cm;
+    padding: 0.375cm;
+    margin: 0.25cm 0;
 }

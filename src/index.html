@@ -19,8 +19,14 @@
             <p><strong>Location:</strong> 1.381497°N, 103.955574°E</p>
         </section>
         <section id="weather">
-            <h2>Current Weather</h2>
-            <!-- Weather updates will go here -->
+            <h2>4-Day Weather Forecast</h2>
+            <div id="weather-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1cm;">
+                <div id="loading" style="text-align: center; padding: 1cm;">
+                    <p>Loading weather data...</p>
+                </div>
+            </div>
+            <p id="weather-error" style="color: red; display: none;"></p>
+            <p id="last-updated" style="font-size: 0.8em; color: #666; margin-top: 0.5cm;"></p>
         </section>
         <section id="crew">
             <h2>Your Crew</h2>
